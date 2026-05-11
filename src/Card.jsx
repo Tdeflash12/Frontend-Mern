@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 function Card({title, price=100, brand}){
    const [favorite,setFavorite]= useState(false)

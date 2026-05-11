@@ -1,7 +1,11 @@
 
-const ComponentB = ({number=5}) => {
+import { useSelector } from "react-redux";
+
+const ComponentB = () => {
+    const {count}=useSelector((state)=> state.counter);
+  
   return (
-    <div>ComponentB:{number*500}</div>
+    <div>ComponentB:{count}</div>
   )
 }
 
