@@ -1,8 +1,6 @@
-import React from 'react'
-
 const About = () => {
   return (
-    <div>About Page</div>
+    <div className="text w-4xl">About Page</div>
   )
 }
 
